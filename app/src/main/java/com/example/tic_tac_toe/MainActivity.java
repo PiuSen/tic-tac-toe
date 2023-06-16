@@ -145,9 +145,9 @@ public class MainActivity extends AppCompatActivity {
     private void performAction(ImageView img, int selectboxposition) {
         boxpositions[selectboxposition] = playerTurn;
         if (playerTurn == 1) {
-            img.setImageResource(R.drawable.img_2);
+            img.setImageResource(R.drawable.img_3);
             if (checkplayerwin()) {
-                winDialog winDialog = new winDialog(MainActivity.this, playeronename.getText().toString() + "Has Won The Match", MainActivity.this);
+                winDialog winDialog = new winDialog(MainActivity.this, playeronename.getText().toString() + " Has Won The Match", MainActivity.this);
                winDialog.setCancelable(false);
                 winDialog.show();
 
@@ -163,9 +163,9 @@ public class MainActivity extends AppCompatActivity {
             }
         }
             else{
-                img.setImageResource(R.drawable.img_2);
+                img.setImageResource(R.drawable.img_4);
                 if(checkplayerwin()){
-                    winDialog winDialog = new winDialog(MainActivity.this, playertwoname.getText().toString() + "Has Won The Match", MainActivity.this);
+                    winDialog winDialog = new winDialog(MainActivity.this, playertwoname.getText().toString() + " Has Won The Match", MainActivity.this);
                     winDialog.setCancelable(false);
                     winDialog.show();
 
@@ -226,15 +226,15 @@ public class MainActivity extends AppCompatActivity {
         boxpositions=new int[]{0,0,0,0,0,0,0,0,0};
         playerTurn=1;
         totalselectedboxes=1;
-        img1.setImageResource(R.drawable.transparent_back);
-        img2.setImageResource(R.drawable.transparent_back);
-        img3.setImageResource(R.drawable.transparent_back);
-        img4.setImageResource(R.drawable.transparent_back);
-        img5.setImageResource(R.drawable.transparent_back);
-        img6.setImageResource(R.drawable.transparent_back);
-        img7.setImageResource(R.drawable.transparent_back);
-        img8.setImageResource(R.drawable.transparent_back);
-        img9.setImageResource(R.drawable.transparent_back);
+        img1.setImageResource(R.drawable.round_back_dark_blue);
+        img2.setImageResource(R.drawable.round_back_dark_blue);
+        img3.setImageResource(R.drawable.round_back_dark_blue);
+        img4.setImageResource(R.drawable.round_back_dark_blue);
+        img5.setImageResource(R.drawable.round_back_dark_blue);
+        img6.setImageResource(R.drawable.round_back_dark_blue);
+        img7.setImageResource(R.drawable.round_back_dark_blue);
+        img8.setImageResource(R.drawable.round_back_dark_blue);
+        img9.setImageResource(R.drawable.round_back_dark_blue);
 
 
 

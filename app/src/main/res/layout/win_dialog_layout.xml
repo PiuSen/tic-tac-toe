@@ -21,13 +21,14 @@
             android:textColor="#fff"
             android:textSize="18sp"
             android:textStyle="bold"/>
-        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+        <Button
             android:id="@+id/startagain"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:background="@drawable/round_back_blue1000"
             android:text="Start Again"
+            android:backgroundTint="@color/transparent_back"
             />
 
     </LinearLayout>
