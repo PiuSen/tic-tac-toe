@@ -11,7 +11,7 @@ public class windialog extends Dialog {
 
 
 
-    public windialog(@NonNull Context context String message,MainActivity mainActivity) {
+    public windialog(@NonNull Context context ,String message,MainActivity mainActivity) {
 
         super(context);
         this.message=message;
